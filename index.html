@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carosel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="carosel">
+        <button class="carosel_button carosel_button--left is-hidden">
+            <img src="./image/left.svg">
+        </button>
+        <div class="carosel_track-container">
+            <ul class="carosel_track">
+                <li class="carosel_slide current_slide">
+                    <img class="carosel_image" src="./image/1.jpg">
+                </li>
+                <li class="carosel_slide">
+                    <img class="carosel_image" src="./image/2.jpg">
+                </li>
+                <li class="carosel_slide">
+                    <img class="carosel_image" src="./image/3.jpg">
+                </li>
+            </ul>
+        </div>
+        <button class="carosel_button carosel_button--right">
+            <img src="./image/right.svg">
+        </button> 
+        <div class="carosel_nav">
+            <button class="carosel_indicator current_slide"></button>
+            <button class="carosel_indicator"></button>
+            <button class="carosel_indicator"></button>
+        </div>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
